@@ -14,7 +14,7 @@ Form a league, hold a draft. Before each concert, set your lineup. If the outfit
 
 The site is live updated during concerts. Leaderboards are posted for every show, prizes will be available to top achievers, depending on the financial and community support this project receives.
 
-### Also, I'm open to work. I was HIGHLY MOTIVATED on this project, a true passion project, and I'll be highly motivated for you if you have the right opportunity! I'm an experienced mobile/web engineer, React Native/React/Typescript
+### Also, I'm open to work. I was HIGHLY MOTIVATED on this project, a true passion project, and I'll be highly motivated for you if you have the right opportunity! I'm an experienced mobile/web engineer, React Native/React/Typescript. If you're interested, please email erastourleagues@gmail.com using a work domain email.
 
 Demo - https://drive.google.com/file/d/1ga7XrdpWOoDcq_sLCSU75-RYrKF7ixV8/view?usp=sharing
 
