@@ -14,14 +14,14 @@ const transporter = nodemailer.createTransport(
   mailgunTransport({
     auth: {
       api_key: MAILGUN_KEY, // Replace with your Mailgun API key
-      domain: 'swiftball.mom', // Replace with your Mailgun domain name
+      domain: 'erastourleagues.com', // Replace with your Mailgun domain name
     },
   }),
 );
 
 const sendTestEmail = async () => {
   const mailOptions = {
-    from: 'postmaster@erastourleagues.com',
+    from: 'erastourleagues@erastourleagues.com',
     to: 'erastourleagues@gmail.com',
     subject: 'Test Email',
     text: 'This is a test email sent with Nodemailer and Mailgun.',
@@ -38,9 +38,9 @@ const sendInterruptedDraftNotification = async (usernames) => {
     // Send test email to each user
     for (const email of emails) {
       const mailOptions = {
-        from: 'postmaster@erastourleagues.com',
+        from: 'erastourleagues@erastourleagues.com',
         to: email,
-        subject: 'Swiftball Draft',
+        subject: 'Eras Tour Leagues Draft',
         text: 'A server crash interrupted your draft, our apologies. The league owner will need to reschedule your draft.',
       };
 
@@ -70,12 +70,12 @@ const sendInviteEmail = async (leagueName, inviteEmail) => {
   const invitationLink = `${BASE_CLIENT_URL}?invitationToken=${invitationToken}`;
 
   const mailOptions = {
-    from: 'postmaster@erastourleagues.com',
+    from: 'erastourleagues@erastourleagues.com',
     to: inviteEmail,
-    subject: `Swiftball invitation: ${leagueName}`,
-    text: `You have been invited to join a Swiftball league!`,
+    subject: `Eras Tour Leagues invitation: ${leagueName}`,
+    text: `You have been invited to join Eras Tour Leagues!`,
     html: `
-      <p>You have been invited to join a Swiftball league! Click the following link to join ${leagueName}:</p>
+      <p>You have been invited to join a league! Click the following link to join ${leagueName}:</p>
       <p>
         <a href="${invitationLink}" style="color: blue; text-decoration: underline;">${invitationLink}</a>
       </p>
@@ -98,9 +98,9 @@ const sendDraftSchedule = async (leagueName, inviteEmail, unixMills) => {
   const easternTime = draftMoment.tz('America/New_York').format('LLL');
 
   const mailOptions = {
-    from: 'postmaster@erastourleagues.com',
+    from: 'erastourleagues@erastourleagues.com',
     to: inviteEmail,
-    subject: `Swiftball draft: ${leagueName}`,
+    subject: `Eras Tour Leagues draft: ${leagueName}`,
     text: `A draft has been scheduled for ${leagueName}. If you can't make it, please ask the league owner to reschedule.
 Pacific Time: ${pacificTime}
 EasternTime: ${easternTime}

@@ -88,6 +88,11 @@ export const Login = () => {
         <Button sx={{ color: 'blue' }} onClick={() => navigate(ROUTES.litigation)}>
           Statement on Litigation
         </Button>
+        <br />
+        Words alone are not enough to describe the full capabilities of this project. You're invited to review our{' '}
+        <a target='_blank' href={'https://docs.google.com/presentation/d/1-NFSJregodZWIoleGL850cNdBLjfwpGH1VOLnSp9ORs/'}>
+          UX Overview Slides
+        </a>
       </Typography>
       <LoginBox>
         <Typography variant='body1' color={'primary.dark'} gutterBottom>

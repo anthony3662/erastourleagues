@@ -34,7 +34,7 @@ export const MakeOffer: React.FC<{ recipient: string; onBack: () => void; refetc
   if (!currentLineups || !user) {
     return (
       <Typography>
-        Thanks for joining Swiftball! Your draft completed in the middle of a show, this feature will become available once the show
+        Thanks for joining Eras Tour Leagues! Your draft completed in the middle of a show, this feature will become available once the show
         completes.
       </Typography>
     );

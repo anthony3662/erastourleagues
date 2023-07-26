@@ -165,7 +165,7 @@ router.post('/decline', async (req, res) => {
 
   await Invitation.model.findByIdAndDelete(inviteId).exec();
   res.json({
-    success: Boolean(del),
+    success: true,
   });
 });
 

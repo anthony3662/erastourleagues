@@ -33,13 +33,15 @@ export const AboutUs = () => {
       {/*</div>*/}
       <Typography gutterBottom>
         Apart from my passion for Taylor Swift and her music, I'm an experienced software engineer. After being laid off, I decided to
-        channel my skills and spare time into building ErasTourLeagues for fellow Swifties to enjoy.
+        channel my skills and spare time into building ErasTourLeagues for fellow Swifties to enjoy. If you're hiring, please email
+        erastourleagues@gmail.com from a work email domain.
       </Typography>
       <Typography gutterBottom>
         Supporting Erastourleagues helps us offer better prizes! Visit{' '}
         <Button onClick={() => navigate(ROUTES.supportUs)}>Support Us</Button> to donate money, merch, or concert tickets.
       </Typography>
       <Typography>IG/Twitter - caticorn2015</Typography>
+      <Typography>Github - anthony3662</Typography>
     </div>
   );
 };

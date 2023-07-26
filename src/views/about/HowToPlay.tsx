@@ -113,9 +113,6 @@ export const HowToPlay = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <a href={'https://drive.google.com/file/d/1nXmffPbJdT5f5yg-Fx0KLI_6G26Ntt13/view?usp=sharing'}>Draft Demo</a>
-          </Typography>
-          <Typography>
             When its your turn, you have 30 seconds to select an outfit by clicking the plus icon next to the outfit. If the timer runs out,
             the pick will be made for you. A draft has 10 rounds.
           </Typography>
@@ -128,9 +125,6 @@ export const HowToPlay = () => {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            <a href={'https://drive.google.com/file/d/1FlzN6PyooHqLmjh7JBxaIlJdg8zZkzNG/view?usp=sharing'}>Demo</a>
-          </Typography>
           <Typography>
             Within your league page, click the Team tab. Each outfit has a dropdown you can use to swap it out, for example if you have the
             Blue Guitar on your bench and you want to swap it with the Pink Dress on your starters, you'd click the dropdown next to Blue

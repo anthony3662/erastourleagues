@@ -72,10 +72,10 @@ export const AccountSetup = () => {
   return (
     <AccountSetupWrapper>
       <HeaderRow>
-        <Typography variant={'h5'} sx={{ whiteSpace: 'nowrap', color: 'primary.dark' }}>
-          Welcome to Swiftball
+        <Typography gutterBottom variant={'h5'} sx={{ color: 'primary.dark' }}>
+          Welcome to Eras Tour Leagues
         </Typography>
-        <Typography variant={'h5'} sx={{ whiteSpace: 'nowrap', color: 'primary.dark' }} style={{ whiteSpace: 'nowrap' }}>
+        <Typography gutterBottom variant={'h5'} sx={{ whiteSpace: 'nowrap', color: 'primary.dark' }} style={{ whiteSpace: 'nowrap' }}>
           Are you ready for it?
         </Typography>
       </HeaderRow>

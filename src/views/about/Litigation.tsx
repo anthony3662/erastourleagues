@@ -51,6 +51,12 @@ export const Litigation = () => {
         has been doing those things, becoming successful as a result. She’ll stay on top if she continues to do those things; there’s no
         need to resort to unethical behavior. I hope Allie will choose to run Swiftball in a productive and positive manner going forward.
       </Typography>
+      <Typography variant='h6' component='p' style={{ textAlign: 'justify' }}>
+        Words alone are not enough to describe the full capabilities of Eras Tour Leagues. You're invited to review our{' '}
+        <a target='_blank' href={'https://docs.google.com/presentation/d/1-NFSJregodZWIoleGL850cNdBLjfwpGH1VOLnSp9ORs/'}>
+          UX Overview Slides
+        </a>
+      </Typography>
     </div>
   );
 };
