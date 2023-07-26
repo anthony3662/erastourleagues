@@ -16,7 +16,7 @@ The site is live updated during concerts. Leaderboards are posted for every show
 
 ### Also, I'm open to work. I was HIGHLY MOTIVATED on this project, a true passion project, and I'll be highly motivated for you if you have the right opportunity! I'm an experienced mobile/web engineer, React Native/React/Typescript. If you're interested, please email erastourleagues@gmail.com using a work domain email.
 
-Demo - https://drive.google.com/file/d/1ga7XrdpWOoDcq_sLCSU75-RYrKF7ixV8/view?usp=sharing
+[UX Overview Slides](https://docs.google.com/presentation/d/1-NFSJregodZWIoleGL850cNdBLjfwpGH1VOLnSp9ORs/edit?usp=sharing)
 
 ## Deployed with AWS Elastic Beanstalk, Cloudfront, S3
 
