@@ -5,7 +5,7 @@ module.exports = {
     project: './tsconfig.json',
   },
 
-  ignorePatterns: ['*.spec.*', '**/build/**'],
+  ignorePatterns: ['*.spec.*', '**/build/**', 'cloudfront-functions/**', '**/.eslintrc.js', '**/.prettierrc.js', 'server/**'],
   extends: ['react-app', 'prettier', 'plugin:import/typescript'],
   plugins: ['import', 'prettier', 'react-hooks'],
   settings: {
