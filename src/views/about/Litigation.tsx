@@ -57,6 +57,13 @@ export const Litigation = () => {
           UX Overview Slides
         </a>
       </Typography>
+      <Typography variant='body1' component='p' style={{ textAlign: 'justify' }}>
+        <b>UPDATE July 29 2023</b> Allie's team reached out to me with the following: "Our lawyer has reached Taylor Nation, Taylor Swift’s
+        team to make them aware of the trademark and register that trademark alongside Taylor Nation." Despite this new information, I
+        continue to be concerned by the legal actions Allie is taking and the potential impact they can have on the fan community. I
+        continue to be concerned about what may transpire if Taylor's team became aware of the full extent of the legal threats Allie has
+        made and continues to make.
+      </Typography>
     </div>
   );
 };

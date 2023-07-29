@@ -54,7 +54,7 @@ const [useAuthentication, AuthenticationProvider, authenticationContext] = creat
       }),
     })
       .then(res => {
-        if (res.status == 403) {
+        if (res.status === 403) {
           throw Error('403');
         }
         return res.json();

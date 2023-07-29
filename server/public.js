@@ -1,7 +1,6 @@
 require('dotenv').config();
 const express = require('express');
 require('express-async-errors');
-require('express-async-errors');
 const mongoose = require('mongoose');
 const app = express();
 const http = require('http').createServer(app); // Create an HTTP server instance

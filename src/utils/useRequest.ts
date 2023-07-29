@@ -30,7 +30,7 @@ export const useRequest = <T, P = object>(): UseRequest<T, P> => {
     })
       .then(async res => {
         setIsLoading(false);
-        if (res.status == 403) {
+        if (res.status === 403) {
           await logout();
           throw Error('log out due to 403');
         }
@@ -56,7 +56,7 @@ export const useRequest = <T, P = object>(): UseRequest<T, P> => {
     })
       .then(async res => {
         setIsLoading(false);
-        if (res.status == 403) {
+        if (res.status === 403) {
           await logout();
           throw Error('log out due to 403');
         }
