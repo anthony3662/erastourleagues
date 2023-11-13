@@ -424,6 +424,26 @@ module.exports = [
     name: 'New Romantics',
   },
   {
+    album: '1989',
+    name: 'Slut!',
+  },
+  {
+    album: '1989',
+    name: `Say Don't Go`,
+  },
+  {
+    album: '1989',
+    name: `Now That We Don't Talk`,
+  },
+  {
+    album: '1989',
+    name: 'Suburban Legends',
+  },
+  {
+    album: '1989',
+    name: 'Is It Over Now?',
+  },
+  {
     album: 'reputation',
     name: '...Ready for It?',
   },
